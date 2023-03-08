@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&display=swap');
+*{ 
+    /*font-family: 'Arvo', serif;*/
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-image: url("bgbd.png");
+ }
+/*nav bar*/
+
+.navbar { 
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   
+}
+.navbar ul li a {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.navbar img{ 
+  width: 17%;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar{ 
+    height: 50px;
+  }
+  .navbar ul li a { 
+    font-size: 1.5rem;
+    margin-left: 3%; /*edit hereeeeeeeeeeeeeee*/
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbar img{ 
+    visibility: hidden; 
+    width: 2%;
+  }
+}
+
+nav ul li a {
+   
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.6s;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+.mohamed {
+  color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;  
+}
+.mohamed:hover {
+  background-color: transparent;
+  /**  border: 2px solid red; **/
+}
+
+
+/*MAIN SECTION */
+
+#ayoub {
+    width: 110%;
+}
+
+
+.images1 {
+  width: 10%;
+}
+.images2 {
+  width: 10%;
+  
+}
+#tww{ 
+  width: 80%;
+  margin-left: 13%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  /*background-image: url("bg.png");*/
+}
+
+.two { 
+  background-image: url("bg.png");
+  height: 75vh;
+}
+#itcc { 
+  align-items: center;
+}
+.itc {
+    font-weight: bold;
+    font-size: 2rem;
+}
+#tww h4 { 
+  color: white;
+}
+#itcc> p { 
+  margin-top: 5%;
+  font-size: 1.2rem;
+  margin-bottom: 10%;
+}
+@media only screen and (min-width: 600px) {
+  .images1 {
+    width: 3%;
+  }
+  .images2 {
+    width: 3%;
+  }
+  .itc {
+    font-size: 4rem;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+  #ayoub {
+    margin-top: 10%;
+}
+}
+
+.com {
+        color: black; 
+        font-size: 1rem;
+}
+.amine {
+      margin-top: 25%;
+      background-color: #d30b0b;
+       color: white;
+        transition: 0.4s;
+        border-radius: 5%;
+        text-decoration: none;
+       text-transform: capitalize;
+        padding: 1rem 1.87rem;
+        font-weight: bold;
+        transition: 0.5s;
+        width: 50%;
+    }
+     .amine:hover {
+        background-color: transparent;
+        border: 1px solid red; 
+        color: white;
+    }
+
+ /*COUNT DOWN */
+
+ .cnt {
+  padding-bottom: 1%;
+  background-color: #00142e;
+  /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   */
+  color: white;
+  text-align: center;
+}
+
+.cnt > h1 {
+  font-weight: normal;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 2rem;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
+
+/*ABOUT US SECTION */
+
+.firsttt { 
+  padding: 10%;
+  width: 90%;
+  margin-left: 8%;
+  margin-top: -1.5% ;
+  color: white;
+}
+#eventee { 
+  background-image: url("event.png");
+}
+#aboutus { 
+  align-items: center;
+}
+
+#omar > p{ 
+  font-size: 1rem;
+  text-align: justify;
+}
+#omar > h4{ 
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  #omar > h4{ 
+    font-size: 2.5rem;
+  }
+  #omar > p{ 
+    font-size: 1.1rem;
+  }
+  #zaoui{ 
+    width: 110%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #zaoui{ 
+    margin-top: 5%;
+    margin-bottom: 20%;
+    width: 90%;
+  }
+  #omar > h4{   
+    margin-top: 15%;
+  }
+}
+
+
+/* The AGENDA */
+
+.TheAgenda{ 
+/*  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);  */ 
+   text-align: center;
+    color: black;
+}
+p{
+    font-size: .5em;
+}
+img{
+    width: 55%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+.TheAgenda > h1 { 
+    font-size: 2em;
+}
+.row{
+    margin-top: 50px;
+}
+#spk > h1{ 
+    font-size: 1.5em;
+}
+#spk2 > h1{ 
+    font-size: 1.5em;
+}
+#spk2 > h3{ 
+    font-size: 1em;
+    margin-bottom: 5%;
+}
+@media only screen and (min-width: 600px) {
+    .TheAgenda{ 
+        width: 100%;
+    }
+    img{
+        width: 30%;
+        margin: 0%;
+    }
+
+  }
+
+  
+
+  /*SPONSORING SECTION */
+#sponsoring{ 
+
+   margin-top: 2%; 
+    text-align: center;
+}
+#spns { 
+  padding: 2%;
+}
+#txtt { 
+  color: #00142e;
+  font-size: 3rem;
+  margin-bottom: 4%;
+  font-weight: bold; 
+}
+#cloud { 
+    width: 60%;  
+    margin-top: 2%;
+}
+#itc { 
+    width: 60%;
+}
+#github { 
+    width: 55%;
+}
+#colla { 
+    width: 55%;
+}
+
+@media only screen and (min-width: 600px) {
+  #sponsoring{ 
+    background-image: url("spns1.png");
+   }
+}
+
+
+
+/* FAQ section */
+
+#FAQ {
+  background-color: #00142e;
+  margin: 0;
+  padding: 0;
+  background-color: #00142e; 
+   color: white;
+  display: flex;
+  min-height: 80vh;
+}
+@media only screen and (min-width: 600px) {
+  #FAQ {
+    background-image: url("faq.png");
+  }
+}
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+.container > h2 { 
+  margin-bottom: 3%;
+}
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion .accordion-item button[aria-expanded=true] {
+  border-bottom: 1px solid rgb(231, 54, 54);
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: rgb(231, 54, 54);
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: rgb(231, 54, 54);
+  border: 1px solid rgb(231, 54, 54);
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.accordion button[aria-expanded=true] {
+  color: rgb(231, 54, 54);
+}
+.accordion button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded=true] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+/* Footer Section  */
+.five {
+  /*background-image: url("end.png");*/
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   
+
+  
+}
+
+#last {
+  width: 25%;
+}
+.relax{ 
+  margin-bottom: -2%;
+}
+
+.shown{ 
+  text-align: center;
+  margin-bottom: -2%;
+}
+
+@media only screen and (min-width: 600px) {
+  #last {
+    width: 11%;
+  }
+  .relax{ 
+    margin-bottom: -1%;
+  }
+}
+
+.show {
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+
+.sho {
+  color: aliceblue;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lastt {
+      color: aliceblue;
+      text-align: center;
+}
+
+#icns{ 
+  margin-bottom: 2%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2%;
+
+}
+@media only screen and (max-width: 600px) {
+  #icns{ 
+    margin-bottom: 5%;
+     margin-top: 1%;
+     width: 75%;
+     margin-left: 10%;
+  }
+}
+.insta img {
+  margin-left: 1%;
+  width: 10%;
+}
+
+.fb  img {
+  width: 10%;
+}
+
+
+.yout  img {
+  margin-left: 1%;
+  width: 10.5%;
+}
+
+@media only screen and (min-width: 800px) {
+  .insta img {
+    width: 3%;
+  }
+  .fb  img {
+    width: 3%;
+  }
+
+  .yout  img {
+    width: 3.5%;
+  } 
+}
