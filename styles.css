@@ -114,11 +114,6 @@ nav ul li a:hover {
 }
 
 
-@media only screen and (max-width: 600px) {
-  #ayoub {
-    margin-top: 10%;
-}
-}
 
 .com {
         color: black; 
@@ -142,12 +137,24 @@ nav ul li a:hover {
         border: 1px solid red; 
         color: white;
     }
+#locall{ 
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 600px) {
+  #ayoub {
+    margin-top: 10%;
+}
+#locall{ 
+  font-size: 1rem;
+}
+}
 
  /*COUNT DOWN */
-
- .cnt {
-  padding-bottom: 1%;
+#countdwn{ 
   background-color: #00142e;
+}
+ .cnt {
+  padding: 8%;
   /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #d30b0b 100%, #131a3a 100%);   */
   color: white;
   text-align: center;
